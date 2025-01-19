@@ -13,7 +13,7 @@ def get_stock_data(symbol):
         stock = yf.Ticker(symbol)
         
         # Get current data
-        current_data = stock.info
+        current_data = stock.fast_info
         
         # Get historical data for the past month
         end_date = datetime.now()
