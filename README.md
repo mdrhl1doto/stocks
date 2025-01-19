@@ -1,2 +1,2 @@
 # stocks
-stock marker visualization webapp.
+stock market visualization webapp.
