@@ -40,9 +40,3 @@ def get_stock_data(symbol):
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-requirements.txt:
-flask==2.0.1
-flask-cors==3.0.10
-yfinance==0.1.63
-gunicorn==20.1.0
